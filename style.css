@@ -1,0 +1,562 @@
+*{  
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+header{
+    background-color: #212629;
+    color: white;
+}
+#container{
+    display: flex;
+    width: 69rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+.child2 img{
+    filter: brightness(0%) invert(1);
+    width: 1.2rem;
+    margin-left: 5px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 69rem;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+}
+.head h1{
+    font-size: 1.8rem;
+    color: white;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+.container1{
+    position: relative;
+    z-index: 1;
+}
+.container1::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    opacity: 0.2;
+}
+#videotag{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.content{
+    color: white;
+    width: 69rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 775px;
+}
+.content h1{
+    margin: 20px 0px;
+    font-size: 2rem;
+}
+.content p{
+    width: 29rem;
+    line-height: 25px;
+}
+#section1{
+    width: 100%;
+    height: 760px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.content button{
+    margin: 30px 0px;
+    padding: 15px 30px;
+    background-color: #a32c30;
+    border: none;
+    border-radius: 120px;
+    color: white;
+    cursor: pointer;
+}
+#section2{
+    width: 78rem;
+    margin: auto;
+    position: absolute;
+    top: 589px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 70rem;
+    justify-content: space-evenly;
+}
+.box{
+    color: white;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #a32c30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 15px;
+}
+#leftarrow{
+    padding: 6px 15px 7px 0px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+#rightarrow{
+    padding: 7px 0px 6px 15px;
+    border-radius: 100%;
+    background-color: white;
+}
+#rightarrow img, #leftarrow img{
+    width: 35px;
+}
+#section3{
+    position: absolute;
+    top: 718px;
+    background: url('./assects/images/section3bg.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 1099px;
+    z-index: -1;
+    overflow: hidden;
+}
+#section3 h1{
+    text-align: center;
+    color: white;
+    margin-top: 220px;
+}
+#section3 > hr{
+    width: 69rem;
+    margin: auto;
+    margin-top: 30px;
+    height: 1px;
+    border: none;
+    background: gray;
+}
+#leftcontent{
+    margin: 9px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 0px 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#leftcontent button{
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #9f2c2f;
+    color: white;
+}
+#leftcontent li{
+    list-style: none;
+}  
+.rock{
+    width: 380px;
+    margin: 9px;
+    border-radius: 25px;
+}
+.rock > h4{
+     padding: 5px 10px;
+     background-color: lightgray;
+     display: inline;
+     border-radius: 10px;
+     position: absolute;
+     left: 907px;
+     margin-top: 10px;
+}
+.rock img{
+    width: 380px;
+}
+.bottom{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    position: relative;
+    bottom: 4px;
+}
+.simple2 h3{
+    line-height: 50px;
+}
+.simple h4{
+    color: #9f2c2f;
+}
+.simple2{
+    width: 70%;
+}
+.simple h3{
+    line-height: 38px;
+}
+#rightcontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem;
+}
+#bigdiv{
+    justify-content: space-between;
+    display: flex;
+    width: 78rem;
+    margin: 50px auto;
+}
+#riv{
+    position: absolute;
+    left: 500px;
+}
+#riv2{
+    position: absolute;
+    left: 500px;
+}
+#section4{
+    background: url('./assects/images/section4bg.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 700px;
+    position: absolute;
+    top: 1810px;
+    z-index: -1;
+    overflow: hidden;
+}
+.application{
+    padding: 0px 20px 0px 0px;
+    margin: 20px 0px;
+    position: relative;
+    color: white;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.application::before{
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.2;
+}
+#river{
+    display: flex;
+    width: 77rem;
+    margin: 92px auto;
+}
+.application button{
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9f2c2f;
+    color: white;
+}
+.application h1, .application p, .application button{
+    margin: 0px 40px;
+}
+.application p{
+    line-height: 25px;
+}
+#btn{
+    background-color: #f6a426;
+}
+.river2{
+    margin-top: 17px;
+    margin-left: 58px;
+    width: 58rem;
+    background-color: white;
+    padding: 45px;
+    height: 395px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.river2 p{
+    text-align: center;
+    padding: 17px 15px;
+    line-height: 25px;
+
+}
+.river2 h2:first-child{
+    color: #f4b54b;
+}
+.river2 hr{
+    border: none;
+    position: relative;
+    bottom: 16px;
+    margin: 0px 99px;
+    height: 2px;
+    background-color: lightgray;
+}
+#firstarrow{
+    margin-left: 55px;
+}
+#secondarrow{
+    margin-left: 117px;
+}
+#thirdarrow{
+    margin-left: 182px;
+}
+#fourtharrow{
+    margin-left: 110px;
+}
+#section5{
+    background: url('./assects/images/section3bg.jpg') no-repeat center center/cover;
+    width: 100vw;
+    overflow: hidden;
+    height: 670px;
+    position: absolute;
+    top: 156rem;
+}
+.visit{
+    background-color: white;
+}
+.visit h3{
+    margin: 30px 0px;
+    padding: 0px 13px;
+    text-align: center;
+}
+.visit img{
+    width: 20px;
+}
+.course{
+    display: flex;
+    width: 77rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 35px auto;
+}
+.course > img{
+    display: block;
+    margin: auto;
+}
+.prac{
+    margin: 0px 15px;
+    width: 300px;
+}
+.prac > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.visit hr{
+    margin: 20px 0px;
+}
+.stars{
+    margin: 20px 15px;
+}
+.stars span{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#identify{
+    margin-left: 10px;
+}
+.stars span{
+    margin-left: 60px;
+}
+#practice {
+    margin: 30px 15px;
+}
+#courses{
+    margin: 70px auto 0px auto;
+    width: 77rem;
+    color: white;
+}
+#courses hr{
+    margin: 20px 0px;
+    background-color: gray;
+    border: none;
+    height: 1px;
+}
+#rider {
+    width: 5rem;
+    border: none;
+    background-color: white;
+    height: 3px;
+    margin: 70px auto;
+}
+#section6{
+    background: url('./assects/images/secondlastbg.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 650px;
+    overflow: hidden;
+    position: absolute;
+    top: 197rem;
+    z-index: -1;
+}
+.fact{
+    position: relative;
+    width: 220px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.fact h1{
+    color: #f9a42c;
+    font-size: 2rem;
+}
+.liver > h1{
+    font-size: 2.2rem;
+    width: 30rem;
+    margin-top: 80px;
+    color: white;
+}
+.fact::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.liver{
+    margin: 20px 0px 0px 0px;
+    width: 35rem;
+}
+.facts{
+    margin-top: 50px;
+    display: flex;
+    width: 30rem;
+    height: 302px;
+    flex-wrap: wrap;
+}
+.trim{
+    margin: 27px 0px 0px 20px;
+}
+.cutegirl{
+    background: url('./assects/images/agirl.jpg') no-repeat center center/cover;
+    width: 600px;
+    height: 400px;
+    margin-top: 105px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 77rem;
+    margin: auto;
+}
+.fact p{
+    padding: 5px;
+    color: white;
+}
+.cutegirl img{
+    cursor: pointer;
+}
+#section7{
+    background: url('./assects/images/section3bg.jpg');
+    width: 100vw;
+    height: 870px;
+    overflow: hidden;
+    position: absolute;
+    top: 237rem;
+}
+#ayan{
+    height: 24rem;
+    width: 48rem;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+textarea{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.inputs input, .inputs textarea{
+    border-radius: 17px;
+    padding: 10px 34px;
+    border: none;
+    background-color: lightgray;
+    margin: 0px 10px 20px 0px;
+}
+#ayan button{
+    padding: 13px 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9f2c2f;
+    color: white;
+}
+#ayan hr{
+    margin: 30px 0px;
+}
+#roll{
+    align-items: center;
+    height: 45rem;
+    width: 77rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#sharu{
+    width: 280px;
+    color: white;
+    background-color: #9f2c2f;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+#sharu hr{
+    border: none;
+    height: 1px;
+    background-color: orangered;
+}
+#gray{
+    border: none;
+    background-color: gray;
+    height: 1px;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 85px;
+    line-height: 25px;
+}
+@media screen (max-width: 1320px)
